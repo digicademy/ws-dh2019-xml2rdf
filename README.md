@@ -37,10 +37,10 @@ All data source files were aggregated via the public Sturm-Data-APIs. You may fi
 
 #### Xtriples configuration files (XML)
 
-* [XTriples Configuration Letters](https://digicademy.github.io/ws-dh2019-xml2rdf/data/config/sturm_config_letters.xtriples.xml)
-* [XTriples Configuration Persons](https://digicademy.github.io/ws-dh2019-xml2rdf/data/config/sturm_config_persons.xtriples.xml)
-* [XTriples Configuration Places](https://digicademy.github.io/ws-dh2019-xml2rdf/data/config/sturm_config_places.xtriples.xml)
-* [XTriples Configuration Works](https://digicademy.github.io/ws-dh2019-xml2rdf/data/config/sturm_config_works.xtriples.xml)
+* [XTriples Configuration Letters](https://digicademy.github.io/ws-dh2019-xml2rdf/data/config/sturm_config_letters_xtriples.xml)
+* [XTriples Configuration Persons](https://digicademy.github.io/ws-dh2019-xml2rdf/data/config/sturm_config_persons_xtriples.xml)
+* [XTriples Configuration Places](https://digicademy.github.io/ws-dh2019-xml2rdf/data/config/sturm_config_places_xtriples.xml)
+* [XTriples Configuration Works](https://digicademy.github.io/ws-dh2019-xml2rdf/data/config/sturm_config_works_xtriples.xml)
 
 #### Handouts
 
