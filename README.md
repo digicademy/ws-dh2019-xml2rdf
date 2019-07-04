@@ -10,7 +10,13 @@ _Thomas Kollatz_ (ORCID: [0000-0003-1904-1841](https://orcid.org/0000-0003-1904-
 
 ## Description
 
-The tutorial focuses on scholars, who want to acquaint themselves with a “low threshold” — generic, simple yet powerful, and explorative — workflow of modelling, extracting, processing (queries, visualizations), and publishing of “structured data” (LOD, Semantic Web) from heterogeneous XML-sources by means of XPath. The web service used for extraction is [XTriples](https://xtriples.lod.academy). The instructors assume basic acquaintance with XML and XPath (both will be quickly revised, “cheat sheets” will be provided).
+The tutorial focuses on scholars, who want to acquaint themselves with a “low threshold” — generic, simple yet powerful, and explorative — workflow of modelling, extracting, processing (queries, visualizations), and publishing of “structured data” (LOD, Semantic Web) from heterogeneous XML-sources by means of XPath. The web service used for extraction is [_XTriples_](https://xtriples.lod.academy). The instructors assume basic acquaintance with XML and XPath (both will be quickly revised, “cheat sheets” will be provided).
+
+The tutorial uses research data provided by the API of the scholarly edition _Der Sturm: Digitale Quellenedition zur Geschichte der internationalen Avantgarde_ ([https://sturm-edition.de](https://sturm-edition.de)) by Marjam Trautmann (ORCID: [0000-0003-2423-7144](https://orcid.org/0000-0003-2423-7144)) and Torsten Schrade. The edition provides APIs ecapsulating persons, places, works, letters, and files.
+
+The _XTriples webservice_ was developed by Torsten Schrade (Academy of Sciences and Literature, Mainz, ORCID: [0000-0002-0953-2818](https://orcid.org/0000-0002-0953-2818)). More about XTriples and its usage within the _Digital Humanities_ may be found here: [https://xtriples.lod.academy/dh.html](https://xtriples.lod.academy/dh.html).
+
+The conference abstract of the workshop is available here: [https://dev.clariah.nl/files/dh2019/boa/1073.html](https://dev.clariah.nl/files/dh2019/boa/1073.html).
 
 ### Presentation
 
