@@ -1,1 +1,24 @@
 
+
+svg.greuler {
+    border: 5px solid #f2f2f2;
+    width: 100%;
+    height: 600px;
+}
+
+svg text.label {
+    font-size: 1em;
+    
+}
+
+svg g path.base {
+        stroke-width: 5;
+}
+
+text.outer-top-left, text.outer-top-right {
+    stroke: white;
+    stroke-width: 1px;
+    fill: black;
+    font-size: 20px;
+    font-weight: 800;
+}

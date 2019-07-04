@@ -47,9 +47,20 @@
     <script src="vendor/d3/d3-3.5.6.js"></script>
     <script src="vendor/cola/cola.v3.min.js"></script>
     <script src="vendor/greuler/greuler-0.5.5.min.js"></script>
-
+    
+    <!-- jquery -->
+    <script src="vendor/jquery/jquery-1.11.0.min.js"></script>
+    
     <!-- html5 dataset shim for IE -->
     <script src="vendor/impress/html5-dataset.js" type="text/javascript"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <style>
+        .button.current {
+                background-color: gray !important;
+                color: white !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -68,22 +79,30 @@
     <div id="impress">
 
         <div class="step">
-            <h4><strong>Date</strong> | <a href="#">Location</a></h4>
-            <h4><strong>Context</strong></h4>
+            <h4><strong>8.7.2019</strong> | <a href="#">Utrecht, NL</a></h4>
+            <h4><strong>Digital Humanities 2019 “Complexities”</strong></h4>
 
-            <h1 class="down-100">Title</h1>
+            <h1 class="down-100" style="font-family: 'Permanent Marker', cursive; font-size:4.5em;">XML2RDF</h1>
 
-            <h2 class="red up-25">Subtitle</h2>
+            <h2 class="red up-25">Extracting RDF statements from XML resources with XTriples</h2>
 
             <h4 class="down-100">
                 <strong>Slides:</strong>
-                <a href="#" title="View the presentation online">
-                    Link
-                </a>
+                <a href="https://digicademy.github.io/ws-dh2019-xml2rdf/" title="View the presentation online">
+                    https://digicademy.github.io/ws-dh2019-xml2rdf/
+                </a> | <a href="https://bit.ly/2Nrnpwi">bit.ly/2Nrnpwi</a><br/>
+                <strong>Repo:</strong>
+                <a href="https://github.com/digicademy/ws-dh2019-xml2rdf" title="View the presentation online">
+                    https://github.com/digicademy/ws-dh2019-xml2rdf
+                </a> | <a href="https://bit.ly/2JgPGjW">bit.ly/2JgPGjW</a>
             </h4>
 
             <h5>
-                <strong><a href="#">Author(s)</a></strong> |
+                <strong><a href="#">Max Grüntgens</a></strong> | <strong><a href="#">Thomas Kollatz</a></strong> 
+                <img src="resources/img/Twitter_bird_logo_2012.svg" alt="Twitter" class="twitter-icon" />
+                <a href="https://twitter.com/kol_t" title="Thomas Kollatz on Twitter">@kol_t</a> |
+                <img src="resources/img/Twitter_bird_logo_2012.svg" alt="Twitter" class="twitter-icon" />
+                <a href="https://twitter.com/_epidat" title="Epidat on Twitter">@_epidat</a> |
                 <img src="resources/img/Twitter_bird_logo_2012.svg" alt="Twitter" class="twitter-icon" />
                 <a href="https://twitter.com/digicademy" title="Digital Academy on Twitter">@digicademy</a> |
                 <img src="resources/img/Octicons-mark-github.svg" alt="Twitter" class="gh-icon" />
@@ -93,337 +112,554 @@
         </div>
 
         <div class="step">
+            <h2 class="red">Abstract</h2>
+            <p>The tutorial focuses on scholars, who want to acquaint themselves with a “low threshold” — generic, simple yet powerful, and explorative — workflow of modelling, extracting, processing (queries, visualizations), and publishing of “structured data” (LOD, Semantic Web) from heterogeneous XML-sources by means of XPath. The instructors assume basic acquaintance with XML and XPath (both will be quickly revised, “cheat sheets” will be provided).</p>
+            <h3 class="red">Focal Points</h3>
+            <p>Triple-Statement-Extraction from heterogeneous XML-Resources, Basic-Research-Workflow (Statement-Formulation, Statement-Extraction, Triple-Store-Import, SPARQL-Querying, Visualization).</p>
+        </div>
+        
+        <div class="step">
+            <h2 class="red">Workshop Setup</h2>
+            <dl>
+                <dt>Webservice</dt>
+                <dd><a href="https://xtriples.lod.academy/index.html">XTriples</a></dd>
+                <dt>XML-Editor</dt>
+                <dd><a href="https://www.oxygenxml.com/xml_editor/register.html">oXygen-XML-Editor (trial license)</a></dd>
+                <dt>XTriples-Framework (for oXygen-Author-Mode)</dt>
+                <dd><a href="https://oxygen.adwmainz.net/xtriples-configuration/update.xml">XTriples-Config-DTA for oXygen</a></dd>
+                <dt>Data</dt>
+                <dd><a href="https://sturm-edition.de/ressourcen/schnittstellen.html">Der-Sturm-APIs (German)</a></dd>
+                <dt>Triple Store</dt>
+                <dd><a href="https://rdf4j.adwmainz.net/rdf4j-workbench/repositories/XML2RDFDH2019/summary">XML2RDFDH2019</a></dd>
+                <dt>Viz Service</dt>
+                <dd><a href="http://app.rawgraphs.io">Rawgraphs.io</a></dd>
+            </dl>
+        </div>
+
+        <div class="step">
             <h2>Table of Contents</h2>
             <ol class="line-height-one-five">
                 <li>
-                    One
+                    Explanatory Notes
                 </li>
                 <li>
-                    Two
+                    Recap
                 </li>
                 <li>
-                    Three
+                    XTriples Configuration
+                </li>
+                <li>
+                    RDF Extraction
+                </li>
+                <li>
+                    Querying with SPARQL
+                </li>
+                <li>
+                    Visualizing with Rawgraphs.io
                 </li>
             </ol>
         </div>
-
+        
+        <!-- 01 Explanatory Notes -->
         <div class="step">
             <h1 class="red">01</h1>
             <h2 class="line-height-one-five">
-                Basics
+                Introduction to RDF
             </h2>
         </div>
-
+        
         <div class="step">
-            <h1>Heading (H1)</h1>
-            <h2>Heading (H2)</h2>
-            <h3>Heading (H3)</h3>
-            <h4>Heading (H4)</h4>
-            <h5>Heading (H5)</h5>
-            <h6>Heading (H6)</h6>
-        </div>
-
-        <div class="step">
-            <h2>Text</h2>
-            <h3 class="red up-25 after-25">Standard text styles</h3>
-            <p class="justify">
-               To die or fly to <span class="dotted">dream</span>: ay, <em>that makes calamity of office</em>, and to be: to dread of, and the heart-ache<sup>1</sup>
-               and sweat pith their <span class="outline">currents</span> turns, puzzles <code>the pale cast of outrageous</code> for who would bear, <strong>to be
-               or to sleep</strong> of <del>death</del> <ins>life</ins> what pith and sweat pith <span class="underline">the pangs and arrows</span> of dispriz'd lose ills
-               we have shuffled o'er with a <span class="highlight">bare</span> bourn no <a href="https://en.wikipedia.org/wiki/Mortal_coil">mortal coil</a>. <cite>W.S., Volume<sub>2</sub></cite>
+            <div id="greuler_001"></div>
+            <p>
+                <a href="#/step-6/#01_001" id="01_001" class="button">01</a>
+                <a href="#/step-6/#01_002" id="01_002" class="button">02</a>
+                <a href="#/step-6/#01_003" id="01_003" class="button">03</a>
+                <a href="#/step-6/#01_004" id="01_004" class="button">04</a>
             </p>
-            <blockquote>
-                Beware the Jabberwock, my son!
-                The jaws that bite, the claws that catch!
-                Beware the Jubjub bird, and shun
-                The frumious Bandersnatch!
-            </blockquote>
-        </div>
-
-        <div class="step">
-            <h2>Text</h2>
-            <h3 class="red up-25 after-25">Text classes (medium, small, x-small)</h3>
-            <h4><strong>medium</strong></h4>
-            <p class="medium up-25">
-               To die or fly to <span class="dotted">dream</span>: ay, <em>that makes calamity of office</em>, and to be: to dread of, and the heart-ache<sup>1</sup>
-               and sweat pith their <span class="outline">currents</span> turns, puzzles <code>the pale cast of outrageous</code> for who would bear, <strong>to be
-               or to sleep</strong> of <del>death</del> <ins>life</ins> what pith and sweat pith <span class="underline">the pangs and arrows</span> of dispriz'd lose ills
-               we have shuffled o'er with a <span class="highlight">bare</span> bourn no <a href="https://en.wikipedia.org/wiki/Mortal_coil">mortal coil</a>. <cite>W.S., Volume<sub>2</sub></cite>
+            <script>
+                let gr_01 = greuler({
+                  target: '#greuler_001',
+                  data: {
+                     linkDistance: 90,
+                     avoidOverlaps: true,
+                     nodes: [
+                        { 
+                            id: '001',
+                            label: 'S',
+                            topRightLabel: '',
+                            r: '20',
+                            x: 50,
+                            y: 50,
+                            fill: '#cc2900',
+                        },
+                        { 
+                            id: '002',
+                            label: 'P',
+                            topRightLabel: '',
+                            r: '20',
+                            x: 100,
+                            y: 50
+                        },
+                        { 
+                            id: '003',
+                            label: 'O',
+                            topRightLabel: '',
+                            r: '20',
+                            x: 150,
+                            y: 50,
+                            fill: '#00b300'
+                        }
+                     ],
+                     links: [
+                        {
+                            source: '001',
+                            target: '002',
+                            directed: true
+                        },
+                        {
+                            source: '002',
+                            target: '003',
+                            directed: true
+                        }
+                     ]
+                   }
+                }).update();
+                
+                
+                
+                // Add new triples to graph
+                $("#01_001").click(() => {
+                
+                  if ($(".current").length < 1) {
+                    [
+                    { 
+                            id: '004',
+                            label: 'S',
+                            topRightLabel: '',
+                            r: '20',
+                            x: 160,
+                            y: 50,
+                            fill: '#cc2900',
+                        },
+                        { 
+                            id: '005',
+                            label: 'P',
+                            topRightLabel: '',
+                            r: '20',
+                            x: 170,
+                            y: 50
+                        }
+                    ].forEach((n) => {
+                        gr_01.graph.addNode(n);
+                        gr_01.update();
+                        }
+                    );
+                    [
+                    {
+                            source: '004',
+                            target: '005',
+                            directed: true
+                        },
+                        {
+                            source: '005',
+                            target: '003',
+                            directed: true
+                        }
+                    ].forEach((e) => {
+                        gr_01.graph.addEdge(e);
+                        gr_01.update();
+                        }
+                    );
+                    $("#01_001").addClass('current');
+                    }
+                });
+                
+                $("#01_002").click(() => {
+                
+                  var current = $(".current").length;
+                  
+                  if (current > 0 && current < 2) {
+                    [
+                        { 
+                            id: '006',
+                            label: 'P',
+                            topRightLabel: '',
+                            r: '20',
+                            x: 170,
+                            y: 50
+                        },
+                        { 
+                            id: '007',
+                            label: 'P',
+                            topRightLabel: '',
+                            r: '20',
+                            x: 170,
+                            y: 50
+                        },
+                        { 
+                            id: '008',
+                            label: 'O',
+                            topRightLabel: '',
+                            r: '20',
+                            x: 170,
+                            y: 50,
+                            fill: '#00b300'
+                        },
+                        { 
+                            id: '009',
+                            label: 'P',
+                            topRightLabel: '',
+                            r: '20',
+                            x: 170,
+                            y: 50
+                        },
+                        { 
+                            id: '010',
+                            label: 'P',
+                            topRightLabel: '',
+                            r: '20',
+                            x: 170,
+                            y: 50
+                        },
+                        { 
+                            id: '011',
+                            label: 'O',
+                            topRightLabel: '',
+                            r: '20',
+                            x: 170,
+                            y: 50,
+                            fill: '#00b300'
+                        },
+                        { 
+                            id: '012',
+                            label: 'O',
+                            topRightLabel: '',
+                            r: '20',
+                            x: 170,
+                            y: 50,
+                            fill: '#00b300'
+                        },
+                    ].forEach((n) => {
+                        gr_01.graph.addNode(n);
+                        gr_01.update();
+                        }
+                    );
+                    [
+                        {
+                            source: '001',
+                            target: '006',
+                            directed: true
+                        },
+                        {
+                            source: '004',
+                            target: '007',
+                            directed: true
+                        },
+                        {
+                            source: '006',
+                            target: '008',
+                            directed: true
+                        },
+                        {
+                            source: '007',
+                            target: '008',
+                            directed: true
+                        },
+                        {
+                            source: '009',
+                            target: '011',
+                            directed: true
+                        },
+                        {
+                            source: '010',
+                            target: '012',
+                            directed: true
+                        },
+                        {
+                            source: '003',
+                            target: '009',
+                            directed: true
+                        },
+                        {
+                            source: '003',
+                            target: '010',
+                            directed: true
+                        }
+                    ].forEach((e) => {
+                        gr_01.graph.addEdge(e);
+                        gr_01.update();
+                        }
+                    );
+                    $("#01_002").addClass('current');
+                    }
+                });
+                
+                $("#01_003").click(() => {
+                
+                  var current = $(".current").length;
+                  
+                  if (current > 1 && current < 3) {
+                    [
+                        { 
+                            id: '014',
+                            label: 'P',
+                            topRightLabel: '',
+                            r: '20',
+                            x: 170,
+                            y: 50
+                        },
+                        { 
+                            id: '015',
+                            label: 'O',
+                            topRightLabel: '',
+                            r: '20',
+                            x: 170,
+                            y: 50,
+                            fill: '#00b300'
+                        },
+                        { 
+                            id: '016',
+                            label: 'P',
+                            topRightLabel: '',
+                            r: '20',
+                            x: 170,
+                            y: 50
+                        },
+                        { 
+                            id: '017',
+                            label: 'S',
+                            topRightLabel: '',
+                            r: '20',
+                            x: 170,
+                            y: 50,
+                            fill: '#cc2900'
+                        },
+                        { 
+                            id: '018',
+                            label: 'O',
+                            topRightLabel: '',
+                            r: '20',
+                            x: 170,
+                            y: 50,
+                            fill: '#00b300'
+                        },
+                        { 
+                            id: '019',
+                            label: 'P',
+                            topRightLabel: '',
+                            r: '20',
+                            x: 170,
+                            y: 50
+                        }
+                    ].forEach((n) => {
+                        gr_01.graph.addNode(n);
+                        gr_01.update();
+                        }
+                    );
+                    [
+                        {
+                            source: '003',
+                            target: '014',
+                            directed: true
+                        },
+                        {
+                            source: '014',
+                            target: '018',
+                            directed: true
+                        },
+                        {
+                            source: '019',
+                            target: '018',
+                            directed: true
+                        },
+                        {
+                            source: '015',
+                            target: '019',
+                            directed: true
+                        },
+                        {
+                            source: '002',
+                            target: '015',
+                            directed: true
+                        },
+                        {
+                            source: '016',
+                            target: '015',
+                            directed: true
+                        },
+                        {
+                            source: '017',
+                            target: '016',
+                            directed: true
+                        }
+                    ].forEach((e) => {
+                        gr_01.graph.addEdge(e);
+                        gr_01.update();
+                        }
+                    );
+                    $("#01_003").addClass('current');
+                    }
+                });
+                
+                 $("#01_004").click(() => {
+                
+                  var current = $(".current").length;
+                  
+                  if (current > 2 && current < 4) {
+                    [
+                        { 
+                            id: '001',
+                            topLeftLabel: 'H. Walden',
+                            topRightLabel: ''
+                        },
+                        { 
+                            id: '002',
+                            topLeftLabel: 'receives',
+                            topRightLabel: ''
+                        }, 
+                        { 
+                            id: '003',
+                            topLeftLabel: 'HS-1916784',
+                            topRightLabel: ''
+                        }, 
+                        { 
+                            id: '004',
+                            topLeftLabel: 'F. Marc',
+                            topRightLabel: ''
+                        }, 
+                        { 
+                            id: '005',
+                            topLeftLabel: 'sends',
+                            topRightLabel: ''
+                        },
+                        { 
+                            id: '006',
+                            topLeftLabel: 'type',
+                            topRightLabel: ''
+                        },
+                        { 
+                            id: '007',
+                            topLeftLabel: 'type',
+                            topRightLabel: ''
+                        },
+                        { 
+                            id: '008',
+                            topLeftLabel: 'artist',
+                            topRightLabel: ''
+                        },
+                        { 
+                            id: '009',
+                            topLeftLabel: 'sentFrom',
+                            topRightLabel: ''
+                        },
+                        { 
+                            id: '010',
+                            topLeftLabel: 'sentTo',
+                            topRightLabel: ''
+                        },
+                        { 
+                            id: '011',
+                            topLeftLabel: 'Sindelsdorf',
+                            topRightLabel: ''
+                        },
+                        { 
+                            id: '012',
+                            topLeftLabel: 'Berlin',
+                            topRightLabel: ''
+                        },
+                        { 
+                            id: '014',
+                            topLeftLabel: 'type',
+                            topRightLabel: ''
+                        },  
+                        { 
+                            id: '015',
+                            topLeftLabel: 'HS-1910585',
+                            topRightLabel: ''
+                        },
+                        { 
+                            id: '016',
+                            topLeftLabel: 'sends',
+                            topRightLabel: ''
+                        },  
+                        { 
+                            id: '017',
+                            topLeftLabel: 'J. v.Heemskerck',
+                            topRightLabel: ''
+                        },  
+                        { 
+                            id: '018',
+                            topLeftLabel: '',
+                            topRightLabel: 'letter'
+                        },  
+                        { 
+                            id: '019',
+                            topLeftLabel: 'type',
+                            topRightLabel: ''
+                        }
+                    ].forEach((n) => {
+                        let update = gr_01.graph.getNode({ id: n.id });
+                        
+                        update.topRightLabel = n.topRightLabel;
+                        update.topLeftLabel = n.topLeftLabel;
+                        }
+                    );
+                    gr_01.update();
+                    
+                    $("#01_004").addClass('current');
+                    }
+                });
+                
+                
+            </script>
+            
+            <p class="small">
+                Website: <a href="https://maurizzzio.github.io/greuler/#/">https://maurizzzio.github.io/greuler/#/</a>
             </p>
-            <h5><strong>small</strong></h5>
-            <p class="small up-25">
-               To die or fly to <span class="dotted">dream</span>: ay, <em>that makes calamity of office</em>, and to be: to dread of, and the heart-ache<sup>1</sup>
-               and sweat pith their <span class="outline">currents</span> turns, puzzles <code>the pale cast of outrageous</code> for who would bear, <strong>to be
-               or to sleep</strong> of <del>death</del> <ins>life</ins> what pith and sweat pith <span class="underline">the pangs and arrows</span> of dispriz'd lose ills
-               we have shuffled o'er with a <span class="highlight">bare</span> bourn no <a href="https://en.wikipedia.org/wiki/Mortal_coil">mortal coil</a>. <cite>W.S., Volume<sub>2</sub></cite>
-            </p>
-            <h6><strong>x-small</strong></h6>
-            <p class="x-small up-25">
-               To die or fly to <span class="dotted">dream</span>: ay, <em>that makes calamity of office</em>, and to be: to dread of, and the heart-ache<sup>1</sup>
-               and sweat pith their <span class="outline">currents</span> turns, puzzles <code>the pale cast of outrageous</code> for who would bear, <strong>to be
-               or to sleep</strong> of <del>death</del> <ins>life</ins> what pith and sweat pith <span class="underline">the pangs and arrows</span> of dispriz'd lose ills
-               we have shuffled o'er with a <span class="highlight">bare</span> bourn no <a href="https://en.wikipedia.org/wiki/Mortal_coil">mortal coil</a>. <cite>W.S., Volume<sub>2</sub></cite>
-            </p>
         </div>
-
-        <div class="step">
-            <h2>Lists, Lists, Lists</h2>
-            <h3 class="red up-25 after-25">Definition, unordered, ordered</h3>
-            <div class="row">
-                <div class="four columns">
-                    <dl>
-                        <dt>
-                            Acceleration
-                        </dt>
-                        <dd>
-                            A constant force, acting on a particle of mass m, will produce a constant acceleration a
-                        </dd>
-                        <dt>
-                            Energy
-                        </dt>
-                        <dd>
-                            If we represent kinetic energy by the symbol K, then K = ½ m v²
-                        </dd>
-                    </dl>
-                </div>
-                <div class="four columns">
-                    <h3>Medium</h3>
-                    <ul>
-                        <li>One</li>
-                        <li>Two
-                            <ul>
-                                <li>Two.One</li>
-                                <li>Two.Two</li>
-                            </ul>
-                        </li>
-                        <li>Three</li>
-                    </ul>
-                    <h4>Small</h4>
-                    <ul class="small">
-                        <li>One</li>
-                        <li>Two
-                            <ul>
-                                <li>Two.One</li>
-                                <li>Two.Two</li>
-                            </ul>
-                        </li>
-                        <li>Three</li>
-                    </ul>
-                </div>
-                <div class="four columns">
-                    <h3>Medium</h3>
-                    <ol>
-                        <li>One</li>
-                        <li>Two
-                            <ol>
-                                <li>Two.One</li>
-                                <li>Two.Two</li>
-                            </ol>
-                        </li>
-                        <li>Thre</li>
-                    </ol>
-                    <h4>Small</h4>
-                    <ol class="small">
-                        <li>One</li>
-                        <li>Two
-                            <ol>
-                                <li>Two.One</li>
-                                <li>Two.Two</li>
-                            </ol>
-                        </li>
-                        <li>Thre</li>
-                    </ol>
-                </div>
-            </div>
-        </div>
-
-        <div class="step">
-            <h2>Tables</h2>
-            <h3 class="red up-25 after-50">Table styles</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>One</th>
-                        <th>Two</th>
-                        <th>Three</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Four</td>
-                        <td>Five</td>
-                        <td>Six</td>
-                    </tr>
-                    <tr>
-                        <td>Seven</td>
-                        <td>Eight</td>
-                        <td>Nine</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
+        
+        <!-- 02 Recap -->
         <div class="step">
             <h1 class="red">02</h1>
             <h2 class="line-height-one-five">
-                Advanced
+                Recap
+            </h2>
+        </div>
+        
+        <!-- 03 Xtriples Configuration -->
+        <div class="step">
+            <h1 class="red">03</h1>
+            <h2 class="line-height-one-five">
+                XTriples Configuration
+            </h2>
+        </div>
+        
+        <!-- 04 RDF Extraction -->
+        <div class="step">
+            <h1 class="red">04</h1>
+            <h2 class="line-height-one-five">
+                RDF Extraction
+            </h2>
+        </div>
+        
+        <!-- 05 Querying with SPARQL -->
+        <div class="step">
+            <h1 class="red">05</h1>
+            <h2 class="line-height-one-five">
+                Querying with SPARQL
+            </h2>
+        </div>
+        
+        <!-- 06 Visualizing with Rawgraphs.io -->
+        <div class="step">
+            <h1 class="red">06</h1>
+            <h2 class="line-height-one-five">
+                Visualizing with Rawgraphs.io
             </h2>
         </div>
 
-        <div class="step">
-            <h2>Slide structure</h2>
-            <h3 class="red up-25 after-50">Twelfe column grid with skeleton.css</h3>
-            <div class="example-grid">
-                <div class="row">
-                    <div class="one column">One</div>
-                    <div class="eleven columns">Eleven</div>
-                </div>
-                <div class="row">
-                    <div class="two columns">Two</div>
-                    <div class="ten columns">Ten</div>
-                </div>
-                <div class="row">
-                    <div class="three columns">Three</div>
-                    <div class="nine columns">Nine</div>
-                </div>
-                <div class="row">
-                    <div class="four columns">Four</div>
-                    <div class="eight columns">Eight</div>
-                </div>
-                <div class="row">
-                    <div class="five columns">Five</div>
-                    <div class="seven columns">Seven</div>
-                </div>
-                <div class="row">
-                    <div class="six columns">Six</div>
-                    <div class="six columns">Six</div>
-                </div>
-                <div class="row">
-                    <div class="seven columns">Seven</div>
-                    <div class="five columns">Five</div>
-                </div>
-                <div class="row">
-                    <div class="eight columns">Eight</div>
-                    <div class="four  columns">Four</div>
-                </div>
-                <div class="row">
-                    <div class="nine columns">Nine</div>
-                    <div class="three columns">Three</div>
-                </div>
-                <div class="row">
-                    <div class="ten columns">Ten</div>
-                    <div class="two columns">Two</div>
-                </div>
-                <div class="row">
-                    <div class="eleven columns">Eleven</div>
-                    <div class="one column">One</div>
-                </div>
-            </div>
-            <p class="down-25">
-                Website: <a href="http://getskeleton.com/">http://getskeleton.com/</a>
-            </p>
-        </div>
-
-        <div class="step">
-            <h2>Substeps</h2>
-            <h3 class="red up-25 after-50">Triggered with class "substep"</h3>
-            <ul class="line-height-one-five">
-                <li class="substep">One</li>
-                <li class="substep">Two</li>
-                <li class="substep">Three</li>
-                <li class="substep">Four</li>
-                <li class="substep">Five</li>
-            </ul>
-        </div>
-
-        <div class="step">
-            <h2>Responsive images</h2>
-            <h3 class="red up-25 after-50">With magnific popup</h3>
-            <div class="mfp-lightbox row">
-                <div class="three columns">
-                    <a href="resources/img/1024x768.png">
-                        <img src="resources/img/1024x768.png" />
-                    </a>
-                </div>
-                <div class="four columns">
-                    <a href="resources/img/1024x768.png">
-                        <img src="resources/img/1024x768.png" />
-                    </a>
-                </div>
-                <div class="five columns">
-                    <a href="resources/img/1024x768.png">
-                        <img src="resources/img/1024x768.png" />
-                    </a>
-                </div>
-            </div>
-            <p class="down-50">
-                Website: <a href="http://dimsemenov.com/plugins/magnific-popup/">http://dimsemenov.com/plugins/magnific-popup/</a>
-            </p>
-        </div>
-
-        <div class="step">
-            <h2>Code listings</h2>
-            <h3 class="red up-25 after-50">With highlight.js (support for most languages)</h3>
-<pre>
-<code class="linenumbers js">function $initHighlight(block, cls) {
-  try {
-    if (cls.search(/\bno\-highlight\b/) != -1)
-      return process(block, true, 0x0F) +
-             ` class="${cls}"`;
-  } catch (e) {
-    /* handle exception */
-  }
-  for (var i = 0 / 2; i < classes.length; i++) {
-    if (checkCondition(classes[i]) === undefined)
-      console.log('undefined');
-  }
-}
-
-export  $initHighlight;
-</code>
-</pre>
-        <p>
-             Website:  <a href="https://highlightjs.org/">https://highlightjs.org/</a>
-        </p>
-        </div>
-
-        <div class="step">
-            <h2>Alternative code listing</h2>
-            <h3 class="red up-25 after-25">With Codemirror (support for even more languages)</h3>
-<form><textarea id="sparql" name="sparql">
-PREFIX rel: &lt;http://purl.org/vocab/relationship/&gt;
-PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
-PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
-
-SELECT DISTINCT ?subject ?subjectLabel ?object ?objectLabel ?predicate
-WHERE {
-    ?subject ?predicate ?object .
-    ?subject (rel:parentOf|^rel:parentOf|rel:spouseOf) ?object .
-    ?subject rdfs:label ?subjectLabel .
-    ?object rdfs:label ?objectLabel .
-    ?subject foaf:gender ?subjectGender .
-    ?object foaf:gender ?objectGender .
-    BIND (IF(?subjectGender = "male"@en, "gold", "yellowgreen") AS ?sourceColor)
-    BIND (IF(?objectGender = "male"@en, "gold", "yellowgreen") AS ?targetColor)
-}
-</textarea></form>
-        <p>
-             Website:  <a href="https://codemirror.net/">https://codemirror.net/</a>
-        </p>
-        </div>
-
-        <div class="step">
-            <h2>Charts</h2>
-            <h3 class="red up-25 after-50">With chartist.js</h3>
-            <div class="ct-container">
-                <div class="ct-chart ct-major-twelfth project-count"></div>
-            </div>
-            <p class="down-25">
-                 Website: <a href="https://gionkunz.github.io/chartist-js/">https://gionkunz.github.io/chartist-js/</a>
-            </p>
-        </div>
-
+       
+        <!-- Maybe useful ? -->
         <div class="step">
             <h2>Graph models</h2>
             <h3 class="red up-25 after-25">With greuler.js</h3>
@@ -432,13 +668,50 @@ WHERE {
                 'use strict';
                 greuler({
                   target: '#greuler',
-                  width: 480,
-                  height: 300,
-                  data: greuler.Graph.random({
-                    order: 5,
-                    size: 5,
-                    connected: true
-                  })
+                  data: {
+                     linkDistance: 50,
+                     avoidOverlaps: true,
+                     nodes: [
+                        { 
+                            id: '001',
+                            label: 'S',
+                            topRightLabel: 'rdf:',
+                            r: '20',
+                            x: 50,
+                            y: 50,
+                            fill: '#cc2900',
+                        },
+                        { 
+                            id: '002',
+                            label: 'P',
+                            topRightLabel: 'rdf:',
+                            r: '20',
+                            x: 100,
+                            y: 50
+                        },
+                        { 
+                            id: '003',
+                            label: 'O',
+                            topRightLabel: 'rdf:',
+                            r: '20',
+                            x: 150,
+                            y: 50,
+                            fill: '#00b300'
+                        }
+                     ],
+                     links: [
+                        {
+                            source: '001',
+                            target: '002',
+                            directed: true
+                        },
+                        {
+                            source: '002',
+                            target: '003',
+                            directed: true
+                        }
+                     ]
+                   }
                 }).update()
             </script>
             <p class="down-75">
@@ -500,8 +773,7 @@ WHERE {
 
     </div>
 
-    <!-- jquery -->
-    <script src="vendor/jquery/jquery-1.11.0.min.js"></script>
+    
 
     <!-- chartist -->
     <script src="vendor/chartist/chartist.min-0.9.7.js"></script>
@@ -537,6 +809,8 @@ WHERE {
         obj.init();
         initSlideNo(obj);
     </script>
-
+    
+    
 </body>
+    
 </html>

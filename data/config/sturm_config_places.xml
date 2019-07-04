@@ -1,0 +1,30 @@
+<?xml-model uri="https://xtriples.lod.academy/xtriples.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<xtriples>
+    <configuration>
+        <vocabularies>
+            <vocabulary prefix="rdf" uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+            <vocabulary prefix="rdfs" uri="http://www.w3.org/2000/01/rdf-schema#"/>
+            <vocabulary prefix="foaf" uri="http://xmlns.com/foaf/0.1/"/>
+            <vocabulary prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+            <vocabulary prefix="geo" uri="http://www.w3.org/2003/01/geo/wgs84_pos#"/>
+            <vocabulary prefix="sturm" uri="https://xtriples.lod.academy/sturm/"/>
+            <vocabulary prefix="letter" uri="https://sturm-edition.de/api/files/"/>
+            <vocabulary prefix="person" uri="https://sturm-edition.de/api/persons/"/>
+            <vocabulary prefix="places" uri="https://sturm-edition.de/api/places/"/>
+            <vocabulary prefix="gndo" uri="http://d-nb.info/standards/elementset/gnd#"/>
+            <vocabulary prefix="works" uri="https://sturm-edition.de/api/works/"/>
+        </vocabularies>
+        <triples>
+            <statement>
+                <subject prefix="places" type="uri">/@xml:id</subject>
+                <predicate prefix="rdfs">label</predicate>
+                <object type="literal" lang="de">/tei:placeName[type='pref']</object>
+            </statement>
+            
+        </triples>
+    </configuration>
+    <!-- like for each -->
+    <collection uri="https://sturm-edition.de/api/places">
+        <resource uri="{//tei:text//tei:listPlace//tei:place}"/>
+    </collection>
+</xtriples>
