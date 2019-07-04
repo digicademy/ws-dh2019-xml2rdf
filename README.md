@@ -37,10 +37,10 @@ All data source files were aggregated via the public Sturm-Data-APIs. You may fi
 
 #### Xtriples configuration files (XML)
 
-* [XTriples Configuration Letters](https://digicademy.github.io/ws-dh2019-xml2rdf/data/config/sturm_config_letters.xml)
-* [XTriples Configuration Persons](https://digicademy.github.io/ws-dh2019-xml2rdf/data/config/sturm_config_persons.xml)
-* [XTriples Configuration Places](https://digicademy.github.io/ws-dh2019-xml2rdf/data/config/sturm_config_places.xml)
-* [XTriples Configuration Works](https://digicademy.github.io/ws-dh2019-xml2rdf/data/config/sturm_config_works.xml)
+* [XTriples Configuration Letters](https://digicademy.github.io/ws-dh2019-xml2rdf/data/config/sturm_config_letters.xtriples.xml)
+* [XTriples Configuration Persons](https://digicademy.github.io/ws-dh2019-xml2rdf/data/config/sturm_config_persons.xtriples.xml)
+* [XTriples Configuration Places](https://digicademy.github.io/ws-dh2019-xml2rdf/data/config/sturm_config_places.xtriples.xml)
+* [XTriples Configuration Works](https://digicademy.github.io/ws-dh2019-xml2rdf/data/config/sturm_config_works.xtriples.xml)
 
 #### Handouts
 
@@ -50,7 +50,7 @@ All data source files were aggregated via the public Sturm-Data-APIs. You may fi
 * XTriples Webservice for RDF-Extraction: [https://xtriples.lod.academy/](https://xtriples.lod.academy/)
 * oXygen-Document-Type-Association: [https://oxygen.adwmainz.net/xtriples-configuration/update.xml](https://oxygen.adwmainz.net/xtriples-configuration/update.xml)
 * RDF4j Triple Store: [https://rdf4j.adwmainz.net/rdf4j-workbench/](https://rdf4j.adwmainz.net/rdf4j-workbench/)
-* Visualization service: [http://rawgraphs.io](http://rawgraphs.io)
+* Visualization service: [http://app.rawgraphs.io](http://app.rawgraphs.io)
 * Person Normdata Webservice: [http://lobid.org/gnd/](http://lobid.org/gnd/)
 * Places Normdata Webservice: [https://sws.geonames.org/357994/about.rdf](https://sws.geonames.org/357994/about.rdf) (Example “Egypt”) 
 
