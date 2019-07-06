@@ -15,10 +15,11 @@ WHERE
  
   OPTIONAL {
     ?sender sturm:sends ?letter .
+    ?letter rdfs:label ?letterlabel .
     ?letter rdf:type ?lettertype .
     ?lettertype rdfs:label ?lettertypelabel .
     ?sender rdfs:label ?sendername .
-    BIND(concat(str(?lettertypelabel), "; ", str(?sendername)) as ?desc) .
+    BIND(concat(str(?lettertypelabel), " ", str(?letterlabel)," sent from ", str(?sendername)) as ?desc) .
   }
   
   OPTIONAL {

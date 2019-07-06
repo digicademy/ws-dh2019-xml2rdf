@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>TITLE</title>
+    <title>XML2RDF</title>
 
     <!-- meta information -->
     <meta name="author" content="Torsten Schrade" />
@@ -140,10 +140,10 @@
             <h2>Table of Contents</h2>
             <ol class="line-height-one-five">
                 <li>
-                    Explanatory Notes
+                    A Shamelessly Short Introduction to RDF
                 </li>
                 <li>
-                    Recap
+                    XPath Recap
                 </li>
                 <li>
                     XTriples Configuration
@@ -155,7 +155,7 @@
                     Querying with SPARQL
                 </li>
                 <li>
-                    Visualizing with Rawgraphs.io
+                    Visualizing with Dariah GeoBrowser &amp; Rawgraphs.io
                 </li>
             </ol>
         </div>
@@ -164,7 +164,7 @@
         <div class="step">
             <h1 class="red">01</h1>
             <h2 class="line-height-one-five">
-                Introduction to RDF
+                A Shamelessly Short Introduction to RDF
             </h2>
         </div>
         
@@ -618,12 +618,60 @@
             </p>
         </div>
         
+        <div class="step">
+            <h2 class="red">
+                Important takeaways
+            </h2>
+            <ul>
+                <li><strong>RDF</strong> approaches should <strong>supplement &amp; augment</strong> scholarly approaches based on <strong>(TEI)-XML</strong>. </li>
+                <li>Most simple RDF: The triple statement formed by <strong>(Subject)-->(Predicate)-->(Object)</strong>, e.g. &lt;S:Thomas&gt; &lt;P:Loves&gt; &lt;E:Epigraphy&gt;</li>
+                <li>Nodes have <strong>no internal structure</strong>, e.g. no tags or K-V-properties (you’ll need something like Neo4j for this).</li>
+                <li>Nodes cane either be <strong>Resource-URIs</strong>, e.g. an abstract entity or concept, or <strong>Value-Literals</strong>, e.g. a name, a value, a label.</li>
+                <li>Only <strong>Resource-URIs</strong> can act as <strong>Subjects</strong> or <strong>Predicates</strong>.</li>
+                <li><strong>Value-Literals</strong> are like <strong>XML leaf nodes</strong>.</li>
+                <li>For prototyping purposes the URIs don’t need to be “real”, e.g. they just have to be structurally valid.</li>
+                <li>After prototyping you <strong>just replace your own URIs</strong> with URIs (or sets of triples) from an established ontology.</li>
+                <li><strong>RDF-XML is just one serialization format</strong> – when you want to use structured data for academic publications check out JSON-LD &amp; Schema.org</li>
+            </ul>
+        </div>
+        
+        <div class="step">
+            <h2 class="centered">
+                <span style="color: gray;">(At least try to)</span><br/>Keep it simple<br/><span style="color: gray;">(at first)</span><br/>!
+            </h2>
+        </div>
+        
         <!-- 02 Recap -->
         <div class="step">
             <h1 class="red">02</h1>
             <h2 class="line-height-one-five">
-                Recap
+                XPath Recap
             </h2>
+        </div>
+        
+        <div class="step">
+            <h2 class="red">
+                Important takeaways
+            </h2>
+            <ul style="line-height: 1.5em;">
+                <li>A path query’s arbitrary starting point is notated with <code>//</code></li>
+                <li>Siblings are separated by <code>/</code> thus notated with <code>//node1/node2</code></li>
+                <li>Conditions within the path query are encapsulated by <code>[ ]</code></li>
+                <li>Attribute values are queried with <code>@Attribute</code></li>
+                <li>Attributes as parts of a condition within a path query are notated with <code>//node[@Attribute="Value"]</code></li> 
+                <li>Namespaces are mostly notated as a prefix: <code>tei:placeName</code></li>
+            </ul>
+        </div>
+        
+        <div class="step">
+            <h2 class="red">
+                Short exercise
+            </h2>
+            <blockquote style="line-height: 1.5em;">
+                Please download and open the file <a href="https://digicademy.github.io/ws-dh2019-xml2rdf/data/source/sturm_persons.xml">sturm_persons.xml</a>. And query
+                <ol style="line-height: 1.2em; margin-top: 0.7em;"><li>all <code>xml:id</code>s of <code>person</code>s,</li><li>all <code>person</code>s that have a <code>@source</code> attribute,</li><li>all <code>person</code>s that have a <code>@source</code> attribute with a <code>GND-URL</code> as value.</li></ol> 
+            </blockquote>
+            <p class="small"><strong>Please check the XML handout &amp; use the XPath functions.</strong></p>
         </div>
         
         <!-- 03 Xtriples Configuration -->
@@ -634,12 +682,97 @@
             </h2>
         </div>
         
+        <div class="step">
+            <h2 class="red">
+                XTriple configuration sections
+            </h2>
+            <ul style="line-height: 1.5em;">
+                <li><code>vocabularies</code> brackets all URI namespaces and binds them to prefixes.</li>
+                <li><code>triples</code> brackets all statements built with 
+                    <ul><code>condition</code> element ⇨ must be an evaluable XPath expression</ul>
+                    <ul><code>subject</code> element ⇨ must be a URI (or blank node)</ul>
+                    <ul><code>predicate</code> element ⇨  must be a URI</ul>
+                    <ul><code>object</code> element ⇨ must be a URI, Literal (or blank node).</ul>
+                </li>
+                <li><code>collection</code> brackets all XML resources which will be crawled.
+                    <ul>
+                        <li style="line-height: 1.2em;"><strong>Important</strong>: XTriples works with any kind of wellformed XML, e.g. TEI-XML, Word-XML, FODT, etc.!</li>
+                    </ul>
+                </li>
+                <hr/>
+                <p class="small">Please open the configuration file <code>sturm_config_works_xtriples.xml</code>.</p>
+            </ul>
+        </div>
+        
+        <div class="step">
+            <h2 class="red">
+                Preliminary checklist
+            </h2>
+            <ol style="line-height: 1.2em;">
+                <li>In what kind of structure &amp; format is my data available? Do I have to do conversion tasks beforehand?</li>
+                <li>Are all important structures &amp; entities in my data addressable by unique ids?</li>
+                <li>Are there any webservices I want to use to augment my data? Do they provide responses in XML?</li>
+                <li>What entities are perceivable in my data? What relationships are perceivable between these entities?</li>
+                <li>What are my research questions?</li>
+            </ol>
+        </div>
+        
+        <div class="step">
+            <h2 class="red">
+                Workshop data checklist
+            </h2>
+            <ol style="line-height: 1.2em;">
+                <li>All our data is structured in TEI-XML &amp; available via categorized web APIs.</li>
+                <li>All entities (letters, persons, places, works) are referenced with project unique XML-IDs.</li>
+                <li>Some entities have norm data entries, e.g. GND-numbers, thus we may use the Lobid-GND-API to augment it.</li>
+                <li>As above the main entities available in our data are letters, persons, places, works.</li>
+                <li>We are f.e. interested in the persons, places, and works mentioned in letters.</li>
+            </ol>
+        </div>
+        
+        
+        <div class="step">
+            <h2 class="red">
+                Whiteboard friendly prototyping
+            </h2>
+            <blockquote>
+                Drawing all entities and their relationships as circles and arrows representing nodes and edges may help to conceptualize the abstract network of relationships we want to extract from our sources more clearly and subsequently project on an common abstract metadata layer.
+            </blockquote>
+        </div>
+        
         <!-- 04 RDF Extraction -->
         <div class="step">
             <h1 class="red">04</h1>
             <h2 class="line-height-one-five">
                 RDF Extraction
             </h2>
+        </div>
+        
+        <div class="step">
+            <h2 class="red">
+                First Extraction
+            </h2>
+            <blockquote style="line-height: 1.5em;">
+                Please download and open the file <a href="https://digicademy.github.io/ws-dh2019-xml2rdf/data/config/sturm_config_works_xtriples.xml">sturm_config_works_xtriples.xml</a>. Use the file to extract the first triples. To do this set the output format to <code>XTriples (for debugging)</code>.
+            </blockquote>
+        </div>
+        
+        <div class="step">
+            <h2 class="red">
+                Further Extractions
+            </h2>
+            <blockquote style="line-height: 1.5em;">
+                Use the XTriple config files in the repository and extract the RDF statements.
+            </blockquote>
+        </div>
+        
+        <div class="step">
+            <h2 class="red">
+                Upload to the RDF4j Triple Store
+            </h2>
+            <blockquote style="line-height: 1.5em;">
+                Upload the RDF files to the <a href="https://rdf4j.adwmainz.net/rdf4j-workbench/">Triple Store</a>.
+            </blockquote>
         </div>
         
         <!-- 05 Querying with SPARQL -->
@@ -650,74 +783,114 @@
             </h2>
         </div>
         
+        <div class="step">
+            <h2 class="red">
+                Basic SPARQL
+            </h2>
+            <pre><code>
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+
+SELECT  ?letter ?letterlabel  
+WHERE
+{
+  	?letter rdfs:label ?letterlabel .
+}
+            </code></pre>
+        </div>
+        
+        <div class="step">
+            <h2 class="red">
+                Basic SPARQL Constructs
+            </h2>
+            <pre><code>
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX sturm: &lt;https://xtriples.lod.academy/sturm/&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt; 
+
+SELECT  ?letter ?letterlabel ?mentiontypelabel ?gender
+WHERE
+{
+    ?letter sturm:mentions ?mention .
+    ?letter rdfs:label ?letterlabel .
+    ?mention rdf:type ?mentiontype .
+    ?mentiontype rdfs:label ?mentiontypelabel .
+    
+    Optional {
+    	?mention rdf:type foaf:Person .
+    	?mention foaf:gender ?gender .
+    }
+  
+}
+            </code></pre>
+        </div>
+        
+        <div class="step">
+            <h2 class="red">
+                Basic SPARQL Functions
+            </h2>
+            <pre><code>
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt; 
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; 
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+prefix sturm: &lt;https://xtriples.lod.academy/sturm/&gt;
+
+SELECT ?letterlabel ?desc ?long ?lat ?place
+WHERE
+{
+    ?letter rdfs:label ?letterlabel .
+  	…
+ 
+    OPTIONAL {
+        ?sender sturm:sends ?letter .
+        ?letter rdfs:label ?letterlabel .
+        ?letter rdf:type ?lettertype .
+        ?lettertype rdfs:label ?lettertypelabel .
+        ?sender rdfs:label ?sendername .
+        BIND(concat(str(?lettertypelabel), 
+            &quot; &quot;, 
+            str(?letterlabel),
+            &quot; sent from &quot;, 
+            str(?sendername)) as ?desc) .
+    }
+  …
+}
+            </code></pre>
+        </div>
+        
+        <div class="step">
+            <h2 class="red">
+                Query the Triple Store based on the SPARQL Querys
+            </h2>
+            <ul style="line-height: 1.5em;">
+                <li>Map plotting: <a href="https://digicademy.github.io/ws-dh2019-xml2rdf/data/queries/get_places.txt">get_places.txt</a></li>
+                <li>Artworks: <a href="https://digicademy.github.io/ws-dh2019-xml2rdf/data/queries/get_artworks.txt">get_artworks.txt</a></li>
+                <li>Gender: <a href="https://digicademy.github.io/ws-dh2019-xml2rdf/data/queries/get_gender.txt">get_gender.txt</a></li>
+            </ul>
+        </div>
+        
+        
         <!-- 06 Visualizing with Rawgraphs.io -->
         <div class="step">
             <h1 class="red">06</h1>
             <h2 class="line-height-one-five">
-                Visualizing with Rawgraphs.io
+                Visualizing with Dariah GeoBrowser &amp; Rawgraphs.io
             </h2>
+        </div>
+        
+        <div class="step">
+            <h2 class="red">
+                Visualization Services
+            </h2>
+            <blockquote style="line-height: 1.5em;">
+                <p><a href="https://geobrowser.de.dariah.eu/">Dariah GeoBrowser</a></p>
+                <p><a href="http://app.rawgraphs.io/">Rawgraphs.io</a></p>
+            </blockquote>
         </div>
 
        
-        <!-- Maybe useful ? -->
-        <div class="step">
-            <h2>Graph models</h2>
-            <h3 class="red up-25 after-25">With greuler.js</h3>
-            <div id="greuler"></div>
-            <script>
-                'use strict';
-                greuler({
-                  target: '#greuler',
-                  data: {
-                     linkDistance: 50,
-                     avoidOverlaps: true,
-                     nodes: [
-                        { 
-                            id: '001',
-                            label: 'S',
-                            topRightLabel: 'rdf:',
-                            r: '20',
-                            x: 50,
-                            y: 50,
-                            fill: '#cc2900',
-                        },
-                        { 
-                            id: '002',
-                            label: 'P',
-                            topRightLabel: 'rdf:',
-                            r: '20',
-                            x: 100,
-                            y: 50
-                        },
-                        { 
-                            id: '003',
-                            label: 'O',
-                            topRightLabel: 'rdf:',
-                            r: '20',
-                            x: 150,
-                            y: 50,
-                            fill: '#00b300'
-                        }
-                     ],
-                     links: [
-                        {
-                            source: '001',
-                            target: '002',
-                            directed: true
-                        },
-                        {
-                            source: '002',
-                            target: '003',
-                            directed: true
-                        }
-                     ]
-                   }
-                }).update()
-            </script>
-            <p class="down-75">
-                 Website: <a href="https://maurizzzio.github.io/greuler/#/">https://maurizzzio.github.io/greuler/#/</a>
-            </p>
-        </div>
+        
 
         <div class="step">
             <div class="centered">
