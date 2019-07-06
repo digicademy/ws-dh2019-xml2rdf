@@ -52,7 +52,7 @@ All data source files were aggregated via the public Sturm-Data-APIs. You may fi
 
 #### CSV files
 
-* [artwork.csv](https://digicademy.github.io/ws-dh2019-xml2rdf/data/csv/artwork.csv)
+* [artworks.csv](https://digicademy.github.io/ws-dh2019-xml2rdf/data/csv/artworks.csv)
 * [mentioned_persons_gender.csv](https://digicademy.github.io/ws-dh2019-xml2rdf/data/csv/mentioned_persons_gender.csv)
 * [places_dariah_geobrowser.csv](https://digicademy.github.io/ws-dh2019-xml2rdf/data/csv/places_dariah_geobrowser.csv)
 
@@ -72,8 +72,8 @@ All data source files were aggregated via the public Sturm-Data-APIs. You may fi
 #### Visualizations
 
 * Based on the [get_places.txt](https://digicademy.github.io/ws-dh2019-xml2rdf/data/queries/get_places.txt) SPARQL Query and used within the [Dariah GeoBrowser](https://geobrowser.de.dariah.eu): [https://geobrowser.de.dariah.eu/?csv1=https://geobrowser.de.dariah.eu/storage/735201](https://geobrowser.de.dariah.eu/?csv1=https://geobrowser.de.dariah.eu/storage/735201)
-* Based on the [get_artworks.txt](https://digicademy.github.io/ws-dh2019-xml2rdf/data/queries/get_artworks.txt) SPARQL Query and used within [app.rawgraphs.io](http://app.rawgraphs.io/) Alluvial Diagram: [https://digicademy.github.io/ws-dh2019-xml2rdf/data/queries/artworks.png](https://digicademy.github.io/ws-dh2019-xml2rdf/data/queries/artworks.png)
-* Based on the [get_gender.txt](https://digicademy.github.io/ws-dh2019-xml2rdf/data/queries/get_gender.txt) SPARQL Query and used within [app.rawgraphs.io](http://app.rawgraphs.io/) Alluvial Diagram: [https://digicademy.github.io/ws-dh2019-xml2rdf/data/queries/gender.png](https://digicademy.github.io/ws-dh2019-xml2rdf/data/queries/gender.png)
+* Based on the [get_artworks.txt](https://digicademy.github.io/ws-dh2019-xml2rdf/data/queries/get_artworks.txt) SPARQL Query and used within [app.rawgraphs.io](http://app.rawgraphs.io/) Alluvial Diagram: [https://digicademy.github.io/ws-dh2019-xml2rdf/data/images/artworks.png](https://digicademy.github.io/ws-dh2019-xml2rdf/data/images/artworks.png)
+* Based on the [get_gender.txt](https://digicademy.github.io/ws-dh2019-xml2rdf/data/queries/get_gender.txt) SPARQL Query and used within [app.rawgraphs.io](http://app.rawgraphs.io/) Alluvial Diagram: [https://digicademy.github.io/ws-dh2019-xml2rdf/data/images/gender.png](https://digicademy.github.io/ws-dh2019-xml2rdf/data/images/gender.png)
 
 <hr/>
 
