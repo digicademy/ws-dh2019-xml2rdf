@@ -1,0 +1,51 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix sturm: <https://xtriples.lod.academy/sturm/>
+
+SELECT ?letterlabel ?lettertypelabel ?sendername ?mentiontypelabel ?subtypelabel ?gender ?arttype
+WHERE
+{
+	?letter sturm:mentions ?mention .
+  	?letter rdfs:label ?letterlabel .
+  
+  OPTIONAL {
+    ?mention rdf:type ?mentiontype .
+    ?mentiontype rdfs:label ?mentiontypelabel .
+  }
+  
+  Optional {
+   {
+  ?mention rdf:type foaf:Person .
+  ?mention foaf:gender ?subtypelabel .
+  }
+  UNION
+   {
+  ?mention rdf:type sturm:Work .
+  ?mention sturm:workSubtype ?subtype .
+  ?subtype rdfs:label ?subtypelabel .
+  }
+  }
+  
+  Optional {
+  ?mention rdf:type foaf:Person .
+  ?mention foaf:gender ?gender .
+  }
+  
+  Optional {
+  ?mention rdf:type sturm:Work .
+  ?mention sturm:workSubtype ?subtype .
+  ?subtype rdfs:label ?arttype .
+  }
+  
+  OPTIONAL {
+    ?sender sturm:sends ?letter .
+    ?sender rdfs:label ?sendername .
+  }
+  
+  OPTIONAL {
+    ?letter rdf:type ?lettertype .
+    ?lettertype rdfs:label ?lettertypelabel .
+  }
+}

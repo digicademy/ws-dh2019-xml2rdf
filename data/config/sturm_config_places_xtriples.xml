@@ -16,15 +16,23 @@
         </vocabularies>
         <triples>
             <statement>
-                <subject prefix="places" type="uri">/@xml:id</subject>
+                <subject prefix="places">/@xml:id</subject>
                 <predicate prefix="rdfs">label</predicate>
-                <object type="literal" lang="de">/tei:placeName[type='pref']</object>
+                <object type="literal" lang="de">/tei:placeName[@type='pref']</object>
             </statement>
-            
+            <statement>
+                <subject prefix="places">/@xml:id</subject>
+                <predicate prefix="geo">lat</predicate>
+                <object type="literal" datatype="integer">/tokenize(tei:location/tei:geo, ' ')[1]</object>
+            </statement>
+            <statement>
+                <subject prefix="places">/@xml:id</subject>
+                <predicate prefix="geo">long</predicate>
+                <object type="literal" datatype="integer">/tokenize(tei:location/tei:geo, ' ')[2]</object>
+            </statement>
         </triples>
     </configuration>
-    <!-- like for each -->
     <collection uri="https://sturm-edition.de/api/places">
-        <resource uri="{//tei:text//tei:listPlace//tei:place}"/>
+        <resource uri="{//tei:text//tei:place}"/>
     </collection>
 </xtriples>

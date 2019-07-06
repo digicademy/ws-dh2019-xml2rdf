@@ -16,14 +16,30 @@
         </vocabularies>
         <triples>
             <statement>
-                <subject prefix="works" type="uri">/@xml:id</subject>
+                <subject prefix="works">/@xml:id</subject>
                 <predicate prefix="rdf">type</predicate>
-                <object prefix="sturm" type="uri">/@n</object>
+                <object prefix="sturm" type="uri">Work</object>
             </statement>
             <statement>
-                <subject prefix="works" type="uri">/@xml:id</subject>
+                <subject prefix="sturm">Work</subject>
                 <predicate prefix="rdfs">label</predicate>
-                <object type="literal" lang="de">/tei:name[type='pref']</object>
+                <object type="literal" lang="de">Work</object>
+            </statement>
+            <statement>
+                <subject prefix="works">/@xml:id</subject>
+                <predicate prefix="sturm">workSubtype</predicate>
+                <object prefix="sturm" type="uri">/@n</object>
+            </statement>
+            
+            <statement>
+                <subject prefix="sturm">/@n</subject>
+                <predicate prefix="rdfs">label</predicate>
+                <object type="literal" lang="de">/@n</object>
+            </statement>
+            <statement>
+                <subject prefix="works">/@xml:id</subject>
+                <predicate prefix="rdfs">label</predicate>
+                <object type="literal" lang="de">/tei:name[@type='pref']</object>
             </statement>
             
         </triples>

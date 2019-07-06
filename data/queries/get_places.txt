@@ -1,0 +1,41 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix sturm: <https://xtriples.lod.academy/sturm/>
+
+SELECT ?letterlabel ?desc ?long ?lat ?place
+WHERE
+{
+  	?letter rdfs:label ?letterlabel .
+  	?letter rdf:type ?lettertype .
+  	?lettertype rdfs:label ?lettertypelabel .
+  	?letter sturm:mentions ?mention .
+	?mention rdf:type geo:SpatialThing .
+ 
+  OPTIONAL {
+    ?sender sturm:sends ?letter .
+    ?letter rdf:type ?lettertype .
+    ?lettertype rdfs:label ?lettertypelabel .
+    ?sender rdfs:label ?sendername .
+    BIND(concat(str(?lettertypelabel), "; ", str(?sendername)) as ?desc) .
+  }
+  
+  OPTIONAL {
+    ?letter sturm:mentions ?mention .
+	?mention rdf:type geo:SpatialThing .
+    ?mention rdfs:label ?place.
+  }
+  
+  OPTIONAL {
+    ?letter sturm:mentions ?mention .
+	?mention rdf:type geo:SpatialThing .
+    ?mention geo:lat ?lat .
+  }
+  
+  OPTIONAL {
+    ?letter sturm:mentions ?mention .
+	?mention rdf:type geo:SpatialThing .
+    ?mention geo:long ?long .
+  }
+}

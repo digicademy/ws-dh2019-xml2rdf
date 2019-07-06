@@ -1,0 +1,375 @@
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:places="https://sturm-edition.de/api/places/" xmlns:gndo="http://d-nb.info/standards/elementset/gnd#" xmlns:works="https://sturm-edition.de/api/works/" xmlns:sturm="https://xtriples.lod.academy/sturm/" xmlns:person="https://sturm-edition.de/api/persons/" xmlns:letter="https://sturm-edition.de/api/files/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000044">
+	<rdfs:label xml:lang="de">Aegypten</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000009">
+	<rdfs:label xml:lang="de">Amsterdam</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52.37403</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.88969</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000017">
+	<rdfs:label xml:lang="de">Antwerpen</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51.21989</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.40346</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000029">
+	<rdfs:label xml:lang="de">Arlesheim</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47.51668</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.58733</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000034">
+	<rdfs:label xml:lang="de">Assen</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52.99667</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.5625</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000041">
+	<rdfs:label xml:lang="de">Balkan</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000045">
+	<rdfs:label xml:lang="de">Barmen</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51.27737</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.19802</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000030">
+	<rdfs:label xml:lang="de">Basel</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47.5669</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.61519</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000060">
+	<rdfs:label xml:lang="de">Belfort</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47.63333</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.86667</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000021">
+	<rdfs:label xml:lang="de">Belgien</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50.75</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.5</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000056">
+	<rdfs:label xml:lang="de">Benediktbeuern</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47.70624</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11.41522</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000002">
+	<rdfs:label xml:lang="de">Berlin</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52.5</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13.41667</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000054">
+	<rdfs:label xml:lang="de">Bichl</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47.7201</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11.41231</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000046">
+	<rdfs:label xml:lang="de">Brandenburg an der Havel</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52.41667</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12.55</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000006">
+	<rdfs:label xml:lang="de">Bretagne</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.16667</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-2.83333</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000040">
+	<rdfs:label xml:lang="de">Budapest</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47.49801</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19.03991</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000001">
+	<rdfs:label xml:lang="de">Den Haag</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52.07667</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.29861</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000014">
+	<rdfs:label xml:lang="de">Deutschland</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51.5</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10.5</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000004">
+	<rdfs:label xml:lang="de">Domburg</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51.56333</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3.49583</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000032">
+	<rdfs:label xml:lang="de">Dresden</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51.05089</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13.73832</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000023">
+	<rdfs:label xml:lang="de">England</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52.16045</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-0.70312</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000061">
+	<rdfs:label xml:lang="de">Ensisheim</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47.86695</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.35212</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000018">
+	<rdfs:label xml:lang="de">Frankfurt am Main</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50.11552</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.68417</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000016">
+	<rdfs:label xml:lang="de">Frankreich</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000035">
+	<rdfs:label xml:lang="de">Galizien</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49.5</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000008">
+	<rdfs:label xml:lang="de">Genf</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46.20222</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.14569</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000050">
+	<rdfs:label xml:lang="de">Giessen</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50.58727</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.67554</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000028">
+	<rdfs:label xml:lang="de">Griechenland</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000047">
+	<rdfs:label xml:lang="de">Hagen</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51.36081</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.47168</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000007">
+	<rdfs:label xml:lang="de">Hamburg</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53.58333</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000062">
+	<rdfs:label xml:lang="de">Hartmannsweilerkopf</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47.86083</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.1612</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000043">
+	<rdfs:label xml:lang="de">Istanbul</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41.01384</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28.94966</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000025">
+	<rdfs:label xml:lang="de">Italien</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42.83333</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12.83333</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000039">
+	<rdfs:label xml:lang="de">Kaunas</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54.90272</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23.90961</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000036">
+	<rdfs:label xml:lang="de">Kopenhagen</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55.67594</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12.56553</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000038">
+	<rdfs:label xml:lang="de">Lublin</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51.25</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22.56667</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000015">
+	<rdfs:label xml:lang="de">Löwen</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50.87959</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.70093</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000013">
+	<rdfs:label xml:lang="de">Middelburg</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51.5</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3.61389</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000052">
+	<rdfs:label xml:lang="de">München</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.13743</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11.57549</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000003">
+	<rdfs:label xml:lang="de">Niederlande</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52.25</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.75</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000019">
+	<rdfs:label xml:lang="de">Nordsee</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55.33333</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000042">
+	<rdfs:label xml:lang="de">Oranienburg</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52.75577</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13.24197</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000010">
+	<rdfs:label xml:lang="de">Paris</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.85341</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2.3488</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000022">
+	<rdfs:label xml:lang="de">Polen</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000055">
+	<rdfs:label xml:lang="de">Ried</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47.69185</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11.40638</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000011">
+	<rdfs:label xml:lang="de">Rotterdam</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51.9225</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.47917</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000024">
+	<rdfs:label xml:lang="de">Rumänien</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000020">
+	<rdfs:label xml:lang="de">Russland</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000026">
+	<rdfs:label xml:lang="de">Scheveningen</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52.10461</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.27557</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000033">
+	<rdfs:label xml:lang="de">Schweden</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000031">
+	<rdfs:label xml:lang="de">Schweiz</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47.00016</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.01427</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000066">
+	<rdfs:label xml:lang="de">Seefeld (Bayern)</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.03505</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11.21395</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000005">
+	<rdfs:label xml:lang="de">Seeland (Provinz)</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51.41667</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3.75</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000048">
+	<rdfs:label xml:lang="de">Sindelsdorf</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47.72458</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11.33295</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000037">
+	<rdfs:label xml:lang="de">Stockholm</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59.33258</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18.0649</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000059">
+	<rdfs:label xml:lang="de">Straßburg</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.58392</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.74553</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000051">
+	<rdfs:label xml:lang="de">Tokio</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35.6895</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">139.69171</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000057">
+	<rdfs:label xml:lang="de">Tunis</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36.81897</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10.16579</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000012">
+	<rdfs:label xml:lang="de">Vlissingen</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51.4425</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3.57361</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000058">
+	<rdfs:label xml:lang="de">Wilmersdorf</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52.48333</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13.31667</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000053">
+	<rdfs:label xml:lang="de">Wrocław</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51.1</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17.03333</geo:long>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/places/O.0000027">
+	<rdfs:label xml:lang="de">Zwolle</rdfs:label>
+	<geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52.5125</geo:lat>
+	<geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.09444</geo:long>
+</rdf:Description>
+
+</rdf:RDF>

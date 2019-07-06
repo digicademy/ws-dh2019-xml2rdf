@@ -1,0 +1,1603 @@
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:places="https://sturm-edition.de/api/places/" xmlns:gndo="http://d-nb.info/standards/elementset/gnd#" xmlns:works="https://sturm-edition.de/api/works/" xmlns:sturm="https://xtriples.lod.academy/sturm/" xmlns:person="https://sturm-edition.de/api/persons/" xmlns:letter="https://sturm-edition.de/api/files/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000030">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000030">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000030">
+	<rdfs:label xml:lang="de">Aktbild</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000056">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000056">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/newspaper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/newspaper">
+	<rdfs:label xml:lang="de">newspaper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000056">
+	<rdfs:label xml:lang="de">Avondpost</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000025">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000025">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000025">
+	<rdfs:label xml:lang="de">Barbaren</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000052">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000052">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/article"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/article">
+	<rdfs:label xml:lang="de">article</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000052">
+	<rdfs:label xml:lang="de">Behne, Adolf: Biologie und Kubismus. In: Der Sturm. Halbmonatsschrift für Kultur und die Künste 11/12 (1915), S. 68-71.</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000051">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000051">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/article"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/article">
+	<rdfs:label xml:lang="de">article</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000051">
+	<rdfs:label xml:lang="de">Behne, Adolf: Der Krieg und die künstlerische Produktion. In: Umschau 19 (1915), S. 268-273.</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000050">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000050">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/article"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/article">
+	<rdfs:label xml:lang="de">article</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000050">
+	<rdfs:label xml:lang="de">Behne, Adolf: Deutsche Expressionisten. Vortrag zur Eröffnung der neuen Sturm-Ausstellung. In: Der Sturm. Halbmonatsschrift für Kultur und die Künste 17/18 (1914), S. 114-115.</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000066">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000066">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/book"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/book">
+	<rdfs:label xml:lang="de">book</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000066">
+	<rdfs:label xml:lang="de">Behne, Adolf: Zur Neuen Kunst. Berlin 1915.</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000088">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000088">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/book"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/book">
+	<rdfs:label xml:lang="de">book</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000088">
+	<rdfs:label xml:lang="de">Bibelausgabe</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000027">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000027">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000027">
+	<rdfs:label xml:lang="de">Bild</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000026">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000026">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000026">
+	<rdfs:label xml:lang="de">Bild</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000021">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000021">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000021">
+	<rdfs:label xml:lang="de">Bild 100</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000022">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000022">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000022">
+	<rdfs:label xml:lang="de">Bild 101</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000023">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000023">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000023">
+	<rdfs:label xml:lang="de">Bild 102</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000015">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000015">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000015">
+	<rdfs:label xml:lang="de">Bild 11</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000016">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000016">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000016">
+	<rdfs:label xml:lang="de">Bild 12</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000017">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000017">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000017">
+	<rdfs:label xml:lang="de">Bild 14</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000028">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000028">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000028">
+	<rdfs:label xml:lang="de">Bild 15</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000018">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000018">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000018">
+	<rdfs:label xml:lang="de">Bild 17</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000019">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000019">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000019">
+	<rdfs:label xml:lang="de">Bild 19</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000013">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000013">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000013">
+	<rdfs:label xml:lang="de">Bild 8</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000014">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000014">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000014">
+	<rdfs:label xml:lang="de">Bild 9</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000020">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000020">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000020">
+	<rdfs:label xml:lang="de">Bild 98</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000024">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000024">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000024">
+	<rdfs:label xml:lang="de">Bild 99</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000072">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000072">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/newspaper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/newspaper">
+	<rdfs:label xml:lang="de">newspaper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000072">
+	<rdfs:label xml:lang="de">Börsencourier</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000079">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000079">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/newspaper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/newspaper">
+	<rdfs:label xml:lang="de">newspaper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000079">
+	<rdfs:label xml:lang="de">Dagblad van Zuid-Holland en 's Gravenhage</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000012">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000012">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000012">
+	<rdfs:label xml:lang="de">Delacroix-Drucke</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000057">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000057">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/newspaper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/newspaper">
+	<rdfs:label xml:lang="de">newspaper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000057">
+	<rdfs:label xml:lang="de">De Nieuwe Courant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000073">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000073">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/newspaper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/newspaper">
+	<rdfs:label xml:lang="de">newspaper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000073">
+	<rdfs:label xml:lang="de">Der Telegraaf</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000058">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000058">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/newspaper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/newspaper">
+	<rdfs:label xml:lang="de">newspaper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000058">
+	<rdfs:label xml:lang="de">De Toekomst</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000059">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000059">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/newspaper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/newspaper">
+	<rdfs:label xml:lang="de">newspaper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000059">
+	<rdfs:label xml:lang="de">De Toestand</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000070">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000070">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/journal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/journal">
+	<rdfs:label xml:lang="de">journal</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000070">
+	<rdfs:label xml:lang="de">Die Aktion</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000064">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000064">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/newspaper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/newspaper">
+	<rdfs:label xml:lang="de">newspaper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000064">
+	<rdfs:label xml:lang="de">Die Hilfe</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000055">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000055">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/newspaper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/newspaper">
+	<rdfs:label xml:lang="de">newspaper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000055">
+	<rdfs:label xml:lang="de">Die Umschau</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000031">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000031">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000031">
+	<rdfs:label xml:lang="de">Eber</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000032">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000032">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000032">
+	<rdfs:label xml:lang="de">Eselfries</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000060">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000060">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/newspaper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/newspaper">
+	<rdfs:label xml:lang="de">newspaper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000060">
+	<rdfs:label xml:lang="de">Flämische Zeitung</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000071">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000071">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/newspaper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/newspaper">
+	<rdfs:label xml:lang="de">newspaper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000071">
+	<rdfs:label xml:lang="de">Frankfurter Zeitung</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000074">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000074">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000074">
+	<rdfs:label xml:lang="de">Gelbe Kuh</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000046">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000046">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000046">
+	<rdfs:label xml:lang="de">Genesis</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000078">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000078">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/newspaper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/newspaper">
+	<rdfs:label xml:lang="de">newspaper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000078">
+	<rdfs:label xml:lang="de">Haagsche Courant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000075">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000075">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/newspaper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/newspaper">
+	<rdfs:label xml:lang="de">newspaper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000075">
+	<rdfs:label xml:lang="de">Haagsche Post</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000081">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000081">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/newspaper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/newspaper">
+	<rdfs:label xml:lang="de">newspaper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000081">
+	<rdfs:label xml:lang="de">Handelsblad</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000033">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000033">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000033">
+	<rdfs:label xml:lang="de">Hasenangstbild</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000061">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000061">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/newspaper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/newspaper">
+	<rdfs:label xml:lang="de">newspaper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000061">
+	<rdfs:label xml:lang="de">Hofstad</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000005">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000005">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000005">
+	<rdfs:label xml:lang="de">Holzschnitt</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000004">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000004">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000004">
+	<rdfs:label xml:lang="de">Holzschnitt</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000006">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000006">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000006">
+	<rdfs:label xml:lang="de">Holzschnitt</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000007">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000007">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000007">
+	<rdfs:label xml:lang="de">Holzschnitt</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000008">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000008">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000008">
+	<rdfs:label xml:lang="de">Holzstock</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000034">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000034">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000034">
+	<rdfs:label xml:lang="de">Holzträger</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000011">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000011">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000011">
+	<rdfs:label xml:lang="de">Häringe</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000063">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000063">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/newspaper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/newspaper">
+	<rdfs:label xml:lang="de">newspaper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000063">
+	<rdfs:label xml:lang="de">Journal des Réfugiés</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000036">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000036">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000036">
+	<rdfs:label xml:lang="de">Katzen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000001">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000001">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000001">
+	<rdfs:label xml:lang="de">Katzenblatt</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000037">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000037">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000037">
+	<rdfs:label xml:lang="de">Komposition I</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000009">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000009">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000009">
+	<rdfs:label xml:lang="de">Komposition II</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000010">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000010">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000010">
+	<rdfs:label xml:lang="de">Komposition III</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000035">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000035">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000035">
+	<rdfs:label xml:lang="de">Kämpfende Kühe</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000039">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000039">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000039">
+	<rdfs:label xml:lang="de">Mandrill</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000077">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000077">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/newspaper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/newspaper">
+	<rdfs:label xml:lang="de">newspaper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000077">
+	<rdfs:label xml:lang="de">Nieuwe Rotterdamsche Courant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000065">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000065">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/book"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/book">
+	<rdfs:label xml:lang="de">book</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000065">
+	<rdfs:label xml:lang="de">Nissen, Benedikt Momme: Der Krieg und die deutsche Kunst. Den kunstliebenden Deutschen beider Kaiserreiche. Freiburg i. B. 1914.</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000040">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000040">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000040">
+	<rdfs:label xml:lang="de">No. 16 Figur</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000047">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000047">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000047">
+	<rdfs:label xml:lang="de">No 160</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000041">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000041">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000041">
+	<rdfs:label xml:lang="de">Porträt</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000062">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000062">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/newspaper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/newspaper">
+	<rdfs:label xml:lang="de">newspaper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000062">
+	<rdfs:label xml:lang="de">Residentie Bode</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000042">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000042">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000042">
+	<rdfs:label xml:lang="de">Rinder</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000080">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000080">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000080">
+	<rdfs:label xml:lang="de">Schafe</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000067">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000067">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/book"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/book">
+	<rdfs:label xml:lang="de">book</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000067">
+	<rdfs:label xml:lang="de">Scheerbart, Paul: Glasarchitektur. Berlin 1914.</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000043">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000043">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000043">
+	<rdfs:label xml:lang="de">Schweine</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000069">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000069">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/drama"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/drama">
+	<rdfs:label xml:lang="de">drama</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000069">
+	<rdfs:label xml:lang="de">Shakespeare, William: Sturm (1623).</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000044">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000044">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000044">
+	<rdfs:label xml:lang="de">Stallungen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000054">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000054">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/article"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/article">
+	<rdfs:label xml:lang="de">article</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000054">
+	<rdfs:label xml:lang="de">Stramm, August: Geschehen. In: Der Sturm. Halbmonatsschrift für Kultur und die Künste 13/14 (1915), S. 74-80.</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000068">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000068">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/journal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/journal">
+	<rdfs:label xml:lang="de">journal</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000068">
+	<rdfs:label xml:lang="de">Sturm (Zeitschrift)</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000076">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000076">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/newspaper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/newspaper">
+	<rdfs:label xml:lang="de">newspaper</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000076">
+	<rdfs:label xml:lang="de">Vaderland</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000048">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000048">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000048">
+	<rdfs:label xml:lang="de">Wald</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000053">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000053">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/article"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/article">
+	<rdfs:label xml:lang="de">article</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000053">
+	<rdfs:label xml:lang="de">Walden, Herwarth: Nachruf auf August Stramm. In: Der Sturm. Halbmonatsschrift für Kultur und die Künste 11/12 (1915).</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000045">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000045">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000045">
+	<rdfs:label xml:lang="de">Wasserfall</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000002">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000002">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000002">
+	<rdfs:label xml:lang="de">Zeichnung</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000003">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000003">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000003">
+	<rdfs:label xml:lang="de">Zeichnung</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000049">
+	<rdf:type rdf:resource="https://xtriples.lod.academy/sturm/Work"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/Work">
+	<rdfs:label xml:lang="de">Work</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000049">
+	<sturm:workSubtype rdf:resource="https://xtriples.lod.academy/sturm/artwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://xtriples.lod.academy/sturm/artwork">
+	<rdfs:label xml:lang="de">artwork</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/works/W.0000049">
+	<rdfs:label xml:lang="de">Zeichnungen</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF>

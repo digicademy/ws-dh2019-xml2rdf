@@ -16,57 +16,81 @@
         </vocabularies>
         <triples>
             <statement>
-                <subject prefix="person" type="uri">//tei:correspDesc/tei:correspAction[@type='sent']/tei:persName/@key</subject>
+                <subject prefix="person">//tei:correspDesc/tei:correspAction[@type='sent']/tei:persName/@key</subject>
                 <predicate prefix="rdf">type</predicate>
                 <object prefix="foaf" type="uri">Person</object>
             </statement>
             <statement>
-                <subject prefix="person" type="uri">//tei:correspDesc/tei:correspAction[@type='received']/tei:persName/@key</subject>
+                <subject prefix="person">//tei:correspDesc/tei:correspAction[@type='received']/tei:persName/@key</subject>
                 <predicate prefix="rdf">type</predicate>
                 <object prefix="foaf" type="uri">Person</object>
             </statement>
             <statement>
-                <subject prefix="person" type="uri">//tei:correspDesc/tei:correspAction[@type='sent']/tei:persName/@key</subject>
+                <subject prefix="person">//tei:correspDesc/tei:correspAction[@type='sent']/tei:persName/@key</subject>
                 <predicate prefix="sturm">sends</predicate>
                 <object prefix="letter" type="uri">/tei:TEI/@xml:id</object>
             </statement>
             <statement>
-                <subject prefix="person" type="uri">//tei:correspDesc/tei:correspAction[@type='received']/tei:persName/@key</subject>
+                <subject prefix="person">//tei:correspDesc/tei:correspAction[@type='received']/tei:persName/@key</subject>
                 <predicate prefix="sturm">receives</predicate>
                 <object prefix="letter" type="uri">/tei:TEI/@xml:id</object>
             </statement>
-
+            
             <statement>
-                <subject prefix="letter" type="uri">/tei:TEI/@xml:id</subject>
+                <subject prefix="letter">/tei:TEI/@xml:id</subject>
+                <predicate prefix="rdfs">label</predicate>
+                <object type="literal" lang="de">/tei:TEI/@xml:id</object>
+            </statement>
+            
+            <statement>
+                <subject prefix="letter">/tei:TEI/@xml:id</subject>
                 <predicate prefix="sturm">mentions</predicate>
                 <object prefix="person" type="uri">//tei:body//tei:p//tei:persName/@key</object>
             </statement>
             <statement>
-                <subject prefix="letter" type="uri">/tei:TEI/@xml:id</subject>
+                <subject prefix="letter">/tei:TEI/@xml:id</subject>
                 <predicate prefix="sturm">mentions</predicate>
                 <object prefix="places" type="uri">//tei:body//tei:p//tei:placeName/@key</object>
             </statement>
             <statement>
-                <subject prefix="letter" type="uri">/tei:TEI/@xml:id</subject>
+                <subject prefix="letter">/tei:TEI/@xml:id</subject>
                 <predicate prefix="sturm">mentions</predicate>
                 <object prefix="works" type="uri">//tei:body//tei:p//tei:term[starts-with(@key, 'W.')]/@key</object>
             </statement>
             
             <statement>
-                <subject prefix="person" type="uri">//tei:body//tei:p//tei:persName/@key</subject>
+                <subject prefix="person">//tei:body//tei:p//tei:persName/@key</subject>
                 <predicate prefix="rdf">type</predicate>
                 <object prefix="foaf" type="uri">Person</object>
             </statement>
             <statement>
-                <subject prefix="places" type="uri">//tei:body//tei:p//tei:placeName/@key</subject>
+                <subject prefix="places">//tei:body//tei:p//tei:placeName/@key</subject>
                 <predicate prefix="rdf">type</predicate>
                 <object prefix="geo" type="uri">SpatialThing</object>
             </statement>
+            
             <statement>
-                <subject prefix="letter" type="uri">/tei:TEI/@xml:id</subject>
+                <subject prefix="letter">/tei:TEI/@xml:id</subject>
                 <predicate prefix="rdf">type</predicate>
                 <object prefix="sturm" type="uri">//tei:text/@type</object>
             </statement>
+            <statement>
+                <subject prefix="sturm">//tei:text/@type</subject>
+                <predicate prefix="rdfs">label</predicate>
+                <object type="literal" lang="de">//tei:text/@type</object>
+            </statement>
+            
+            <statement>
+                <subject prefix="foaf">Person</subject>
+                <predicate prefix="rdfs">label</predicate>
+                <object type="literal" lang="de">Person</object>
+            </statement>
+            <statement>
+                <subject prefix="geo">SpatialThing</subject>
+                <predicate prefix="rdfs">label</predicate>
+                <object type="literal" lang="de">Place</object>
+            </statement>
+
         </triples>
     </configuration>
     <collection uri="https://sturm-edition.de/api/letters">

@@ -1,0 +1,466 @@
+<rdf:RDF xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:places="https://sturm-edition.de/api/places/" xmlns:gndo="http://d-nb.info/standards/elementset/gnd#" xmlns:works="https://sturm-edition.de/api/works/" xmlns:sturm="https://xtriples.lod.academy/sturm/" xmlns:person="https://sturm-edition.de/api/persons/" xmlns:letter="https://sturm-edition.de/api/files/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000032">
+	<rdfs:label xml:lang="de">Alma, Peter</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000059">
+	<rdfs:label xml:lang="de">Arnold, Ernst (Galerie)</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000083">
+	<rdfs:label xml:lang="de">August (Stramm?)</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000063">
+	<rdfs:label xml:lang="de">Bechteev, Vladimir G.</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000072">
+	<rdfs:label xml:lang="de">Beckerath, Willy von</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000014">
+	<rdfs:label xml:lang="de">Beffie, Willem Wolff</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000021">
+	<rdfs:label xml:lang="de">Behne, Adolf</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000060">
+	<rdfs:label xml:lang="de">Beneé</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000070">
+	<rdfs:label xml:lang="de">Benkard, Ernst</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000069">
+	<rdfs:label xml:lang="de">Bock</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000043">
+	<rdfs:label xml:lang="de">Bremmer, Henk</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000044">
+	<rdfs:label xml:lang="de">Breuer, Robert</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000055">
+	<rdfs:label xml:lang="de">Bruder (von Francisca van Leer)</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000090">
+	<rdfs:label xml:lang="de">Bruggen Cate, J.D. ten</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000017">
+	<rdfs:label xml:lang="de">Bürgermeister (von Domburg/Zeeland um 1914)</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000067">
+	<rdfs:label xml:lang="de">C. Gebh.</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000062">
+	<rdfs:label xml:lang="de">Campendonk, Heinrich</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000018">
+	<rdfs:label xml:lang="de">Capitän Christus</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000058">
+	<rdfs:label xml:lang="de">Cassirer, Paul</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000015">
+	<rdfs:label xml:lang="de">Chagall, Marc</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000088">
+	<rdfs:label xml:lang="de">Daffner, Hugo</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000092">
+	<rdfs:label xml:lang="de">Delacroix, Eugène</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000024">
+	<rdfs:label xml:lang="de">Doesburg, Theo van</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000066">
+	<rdfs:label xml:lang="de">Erbslöh, Adolf</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000019">
+	<rdfs:label xml:lang="de">Famia</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000056">
+	<rdfs:label xml:lang="de">Feige</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000080">
+	<rdfs:label xml:lang="de">Feldmann</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000033">
+	<rdfs:label xml:lang="de">Filla, Emil</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000040">
+	<rdfs:label xml:lang="de">Gestel, Leo</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000035">
+	<rdfs:label xml:lang="de">Gevers, Willem</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000068">
+	<rdfs:label xml:lang="de">Goldschmidt</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000081">
+	<rdfs:label xml:lang="de">Hartley, Marsden</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000078">
+	<rdfs:label xml:lang="de">Heckel, Erich</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000006">
+	<rdfs:label xml:lang="de">Heemskerck van Beest, Eduard Jacob van</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000004">
+	<rdfs:label xml:lang="de">Heemskerck van Beest, Jacoba van</rdfs:label>
+	<foaf:gender xml:lang="de">Weiblich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000027">
+	<rdfs:label xml:lang="de">Hess, Leopold</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000037">
+	<rdfs:label xml:lang="de">Heurn, van</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000022">
+	<rdfs:label xml:lang="de">Hüber, Roelofssen</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000051">
+	<rdfs:label xml:lang="de">Janssen, Miek</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000064">
+	<rdfs:label xml:lang="de">Jawlensky, Alexej von</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000030">
+	<rdfs:label xml:lang="de">Kahnweiler, Daniel-Henry</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000009">
+	<rdfs:label xml:lang="de">Kandinsky, Wassily</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000012">
+	<rdfs:label xml:lang="de">Kickert, Conrad</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000076">
+	<rdfs:label xml:lang="de">Klee, Paul</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000099">
+	<rdfs:label xml:lang="de">Klugen</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000073">
+	<rdfs:label xml:lang="de">Koehler, Bernhard</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000046">
+	<rdfs:label xml:lang="de">Kokoschka, Oskar</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000079">
+	<rdfs:label xml:lang="de">Kubin, Alfred</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000054">
+	<rdfs:label xml:lang="de">Kühlmann, Richard von</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000050">
+	<rdfs:label xml:lang="de">Lapidoth, F.</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000010">
+	<rdfs:label xml:lang="de">Le Fauconnier, Henri</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000036">
+	<rdfs:label xml:lang="de">Leer, Francisca van</rdfs:label>
+	<foaf:gender xml:lang="de">Weiblich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000042">
+	<rdfs:label xml:lang="de">Lenbach, Franz von</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000029">
+	<rdfs:label xml:lang="de">Lotz, Ernst Wilhelm</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000025">
+	<rdfs:label xml:lang="de">Macke, August</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000075">
+	<rdfs:label xml:lang="de">Macke, Helmuth</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000003">
+	<rdfs:label xml:lang="de">Marc, Franz</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000082">
+	<rdfs:label xml:lang="de">Marc, Maria</rdfs:label>
+	<foaf:gender xml:lang="de">Weiblich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000047">
+	<rdfs:label xml:lang="de">Mesdag, Hendrik Willem</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000077">
+	<rdfs:label xml:lang="de">Moilliet, Louis</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000085">
+	<rdfs:label xml:lang="de">Mombert, Alfred</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000031">
+	<rdfs:label xml:lang="de">Mondrian, Piet</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000089">
+	<rdfs:label xml:lang="de">Mälinger</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000087">
+	<rdfs:label xml:lang="de">Niestlé, Jean-Bloé</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000086">
+	<rdfs:label xml:lang="de">Nissen, Benedikt Momme</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000084">
+	<rdfs:label xml:lang="de">Ostini, Fritz von</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000061">
+	<rdfs:label xml:lang="de">Pfemfert, Franz</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000049">
+	<rdfs:label xml:lang="de">Picasso, Pablo</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000057">
+	<rdfs:label xml:lang="de">Reiche, Richart</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000091">
+	<rdfs:label xml:lang="de">Rembrandt, Harmensz van Rijn</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000026">
+	<rdfs:label xml:lang="de">Ridderhof</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000045">
+	<rdfs:label xml:lang="de">Saalborn, Louis</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000023">
+	<rdfs:label xml:lang="de">Santen, van</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000007">
+	<rdfs:label xml:lang="de">Schames, Ludwig</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000013">
+	<rdfs:label xml:lang="de">Scheerbart, Paul</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000039">
+	<rdfs:label xml:lang="de">Schelfhout, Lodewijk</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000038">
+	<rdfs:label xml:lang="de">Schuurman, Max</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000005">
+	<rdfs:label xml:lang="de">Schwester (von Jacoba van Heemskerck van Beest)</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000074">
+	<rdfs:label xml:lang="de">Shakespeare, William</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000016">
+	<rdfs:label xml:lang="de">Sluyters, Jan</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000041">
+	<rdfs:label xml:lang="de">Stramm, August</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000034">
+	<rdfs:label xml:lang="de">Tak van Poortvliet, Johannes Pieter Roetert</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000008">
+	<rdfs:label xml:lang="de">Tak van Poortvliet, Marie</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000020">
+	<rdfs:label xml:lang="de">Taut, Bruno</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000071">
+	<rdfs:label xml:lang="de">Thannhauser, Heinrich</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000011">
+	<rdfs:label xml:lang="de">Toorop, Jan</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000048">
+	<rdfs:label xml:lang="de">Versluys, W.</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000028">
+	<rdfs:label xml:lang="de">Wagner, R.</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000001">
+	<rdfs:label xml:lang="de">Walden, Herwarth</rdfs:label>
+	<foaf:gender xml:lang="de">Männlich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000002">
+	<rdfs:label xml:lang="de">Walden, Nell</rdfs:label>
+	<foaf:gender xml:lang="de">Weiblich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000065">
+	<rdfs:label xml:lang="de">Werefkin, Marianne von</rdfs:label>
+	<foaf:gender xml:lang="de">Weiblich</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000053">
+	<rdfs:label xml:lang="de">Wichert</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://sturm-edition.de/api/persons/P.0000052">
+	<rdfs:label xml:lang="de">Wiegand, Charmion von</rdfs:label>
+	<foaf:gender xml:lang="de">Unbekannt</foaf:gender>
+</rdf:Description>
+
+</rdf:RDF>

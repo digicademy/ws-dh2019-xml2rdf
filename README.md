@@ -26,7 +26,7 @@ You may clone the repository with Git `git clone https://github.com/digicademy/w
 
 Below you may find lists collecting the relevant xml source data files, the finished XTriples configuration files for RDF extraction, some  handouts, and a list of important links to sites and services used during the workshop.
 
-#### Data files (XML)
+#### Input data files (XML)
 
 * [Sturm Letters](https://digicademy.github.io/ws-dh2019-xml2rdf/data/source/sturm_letters.xml)
 * [Sturm Persons](https://digicademy.github.io/ws-dh2019-xml2rdf/data/source/sturm_persons.xml)
@@ -42,8 +42,23 @@ All data source files were aggregated via the public Sturm-Data-APIs. You may fi
 * [XTriples Configuration Places](https://digicademy.github.io/ws-dh2019-xml2rdf/data/config/sturm_config_places_xtriples.xml)
 * [XTriples Configuration Works](https://digicademy.github.io/ws-dh2019-xml2rdf/data/config/sturm_config_works_xtriples.xml)
 
+
+#### Output data files (XML)
+
+* [Sturm Letters](https://digicademy.github.io/ws-dh2019-xml2rdf/data/output/sturm_output_letters.rdf)
+* [Sturm Persons](https://digicademy.github.io/ws-dh2019-xml2rdf/data/output/sturm_output_persons.rdf)
+* [Sturm Places](https://digicademy.github.io/ws-dh2019-xml2rdf/data/output/sturm_output_places.rdf)
+* [Sturm Works](https://digicademy.github.io/ws-dh2019-xml2rdf/data/output/sturm_output_works.rdf)
+
+#### CSV files
+
+* [artwork.csv](https://digicademy.github.io/ws-dh2019-xml2rdf/data/csv/artwork.csv)
+* [mentioned_persons_gender.csv](https://digicademy.github.io/ws-dh2019-xml2rdf/data/csv/mentioned_persons_gender.csv)
+* [places_dariah_geobrowser.csv](https://digicademy.github.io/ws-dh2019-xml2rdf/data/csv/places_dariah_geobrowser.csv)
+
 #### Handouts
 
+* 
 
 #### Important links
 
@@ -53,6 +68,12 @@ All data source files were aggregated via the public Sturm-Data-APIs. You may fi
 * Visualization service: [http://app.rawgraphs.io](http://app.rawgraphs.io)
 * Person Normdata Webservice: [http://lobid.org/gnd/](http://lobid.org/gnd/)
 * Places Normdata Webservice: [https://sws.geonames.org/357994/about.rdf](https://sws.geonames.org/357994/about.rdf) (Example “Egypt”) 
+
+#### Visualizations
+
+* Based on the [get_places.txt](https://digicademy.github.io/ws-dh2019-xml2rdf/data/queries/get_places.txt) SPARQL Query and used within the [Dariah GeoBrowser](https://geobrowser.de.dariah.eu): [https://geobrowser.de.dariah.eu/?csv1=https://geobrowser.de.dariah.eu/storage/735201](https://geobrowser.de.dariah.eu/?csv1=https://geobrowser.de.dariah.eu/storage/735201)
+* Based on the [get_artworks.txt](https://digicademy.github.io/ws-dh2019-xml2rdf/data/queries/get_artworks.txt) SPARQL Query and used within [app.rawgraphs.io](http://app.rawgraphs.io/) Alluvial Diagram: [https://digicademy.github.io/ws-dh2019-xml2rdf/data/queries/artworks.png](https://digicademy.github.io/ws-dh2019-xml2rdf/data/queries/artworks.png)
+* Based on the [get_gender.txt](https://digicademy.github.io/ws-dh2019-xml2rdf/data/queries/get_gender.txt) SPARQL Query and used within [app.rawgraphs.io](http://app.rawgraphs.io/) Alluvial Diagram: [https://digicademy.github.io/ws-dh2019-xml2rdf/data/queries/gender.png](https://digicademy.github.io/ws-dh2019-xml2rdf/data/queries/gender.png)
 
 <hr/>
 
