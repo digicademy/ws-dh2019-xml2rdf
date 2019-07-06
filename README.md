@@ -58,7 +58,7 @@ All data source files were aggregated via the public Sturm-Data-APIs. You may fi
 
 #### Handouts
 
-* 
+* [XPath Handout](https://digicademy.github.io/ws-dh2019-xml2rdf/data/handouts/Handout-XML-English_2019.pdf)
 
 #### Important links
 
