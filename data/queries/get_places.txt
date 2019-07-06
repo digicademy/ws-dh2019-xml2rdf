@@ -4,7 +4,7 @@ PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix sturm: <https://xtriples.lod.academy/sturm/>
 
-SELECT ?letterlabel ?desc ?long ?lat ?place
+SELECT ?letterlabel ?place ?desc ?long ?lat 
 WHERE
 {
   	?letter rdfs:label ?letterlabel .
