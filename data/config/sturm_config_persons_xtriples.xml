@@ -24,7 +24,7 @@
                 <condition>/matches(@source, '/gnd/')</condition>
                 <subject prefix="person">/@xml:id</subject>
                 <predicate prefix="foaf">gender</predicate>
-                <object type="literal" lang="de" resource="http://lobid.org/gnd/{/replace(@source,'http://d-nb.info/gnd/(.*?)', '$1', '')}.rdf">//gndo:gender//rdfs:label</object>
+                <object type="literal" lang="de" resource="https://lobid.org/gnd/{/replace(@source,'http://d-nb.info/gnd/(.*?)', '$1', '')}.rdf">//gndo:gender//rdfs:label</object>
             </statement>
             <statement>
                 <condition>/not(matches(@source, '/gnd/'))</condition>
